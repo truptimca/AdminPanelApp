@@ -11,7 +11,7 @@ function UserList() {
             .then(res => res.json())
             .then((data) => {
                 setUsers(data.data)
-                //console.log("users data>>>>", users)
+                console.log("users data>>>>", users)
 
             })
 
